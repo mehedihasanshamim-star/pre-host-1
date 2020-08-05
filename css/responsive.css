@@ -1,0 +1,201 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 575px) 
+{
+	header nav .navbar-nav .nav-item .menu-dot{
+		display: none;
+	}
+	header{
+		height: auto;
+	}
+	header .banner-text{
+		padding: 100px 0;
+		text-align: center;
+	}
+	header .banner-text ul{
+		justify-content: center;
+	}
+	header .banner-text ul li .common-btn {
+		padding: 6px 10px;
+		font-size: 16px;
+	}
+	header .banner-text p {
+		margin-bottom: 20px;
+	}
+	header .domain-name {
+		margin-top: 100px;
+	}
+	.whychoose {
+		margin-top: 50px;
+	}
+	.banner-chick ul{
+		justify-content: center;
+	}
+	.mb-sm-30{
+		margin-bottom: 30px;
+	}
+	.basic-web{
+		text-align: center;
+	}
+	.choose-plan .choose-menu ul li{
+		margin: 0;
+	}
+	.choose-plan .choose-tables .single-choose-table{
+		margin-bottom: 30px;
+	}
+	.free-website-text.text-lg-right.text-sm-center {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.latest-single-news {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.latest-text .nav{
+		justify-content: center;
+	}
+	footer .footer-top .single-footer-top {
+		display: inline-block;
+		text-align: center;
+		line-height: 95px;
+		margin-bottom: 30px;
+	}
+	.mt-30{
+		margin-top: 0;
+	}
+	footer .footer-maine {
+		padding-top: 70px;
+		text-align: center;
+	}
+	footer .footer-maine .footer-logo-section ul {
+		justify-content: center;
+	}
+	.our-location-1,
+	.important-links-section,
+	.footer-logo-section {
+		margin-bottom: 50px;
+	}
+	footer .footer-maine .instagram-section .col-lg-4 {
+		padding: 0;
+		padding: 10px 10px;
+		width: 33%;
+	}
+	footer {
+		background-image: url(../images/footer-bg.png);
+		background-size: cover;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		height: auto;
+	}
+	.testimonial .single-testimonial .test-text p {
+		font-size: 12px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+	header nav .navbar-nav .nav-item .menu-dot{
+		display: none;
+	}
+	header .banner-text{
+		text-align: center;
+	}
+	header{
+		height: auto;
+		background-size: auto;
+	}
+	header .domain-name {
+		margin-top: 100px;
+	}
+	.basic-text {
+		text-align: center;
+	}
+	.mb-sm-30{
+		margin-bottom: 30px;
+	}
+	.mt-30{
+		margin-top: 0;
+	}
+	.choose-plan .choose-tables .single-choose-table {
+		margin-bottom: 30px;
+	}
+	.free-website-text{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.latest-news .latest-single-news .latest-text {
+		text-align: center;
+	}
+	.latest-single-news {
+		margin-bottom: 30px;
+	}
+	footer .footer-top .single-footer-top {
+		display: inline-block;
+		text-align: center;
+		line-height: 95px;
+		margin-bottom: 30px;
+	}
+	footer .footer-maine {
+		padding-top: 70px;
+		text-align: center;
+	}
+	footer .footer-maine .footer-logo-section ul {
+		justify-content: center;
+	}
+	.our-location-1,
+	.important-links-section,
+	.footer-logo-section {
+		margin-bottom: 50px;
+	}
+	footer {
+		background-image: url(../images/footer-bg.png);
+		background-size: cover;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		height: auto;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+	.navbar-nav{
+		flex-direction: row;
+	}
+	.latest-single-news{
+		margin-bottom: 30px;
+	}
+	footer .footer-top .single-footer-top{
+		height: 50px;
+		padding: 10px;
+	}
+	footer{
+		height: auto;
+	}
+	footer .footer-maine {
+		padding-top: 100px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) 
+{
+	footer{
+		height: auto;
+	}
+	footer .footer-maine .footer-logo-section ul li a {
+		height: 35px;
+		width: 35px;
+		line-height: 35px;
+	}
+	footer .footer-maine h3{
+		font-size: 16px;
+	}
+	footer .footer-maine .footer-logo-section ul li a i{
+		font-size: 16px;
+	}
+	.latest-news .latest-single-news .latest-text h3{
+		font-size: 18px;
+	}
+
+}

@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; }
+
+p,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+a:focus,
+button:focus,
+input:focus {
+  outline: none; }
+
+a:hover,
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+.navbar .navbar-toggler {
+  border: 2px solid #fff; }
+  .navbar .navbar-toggler span {
+    display: block;
+    height: 2px;
+    width: 40px;
+    background-color: #fff;
+    margin: 5px; }
+
+.mt-30 {
+  margin-top: 30px; }
+
+.whychoose .hadding h2, .choose-plan .hadding h2, .testimonial .hadding h2, .latest-news .hadding h2 {
+  color: #222;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif; }
+.whychoose .hadding p, .choose-plan .hadding p, .testimonial .hadding p, .latest-news .hadding p {
+  color: #444;
+  font-weight: 400; }
+
+.basic-web .basic-text .common-btn, .free-website .free-website-text .common-btn {
+  background-color: #245cd1;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: 'Ubuntu', sans-serif; }
+
+header {
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 980px;
+  /*-- banner-text-section start --*/
+  /*-- banner-text-section end --*/
+  /*-- domain-name-section start --*/
+  /*-- domain-name-section end --*/ }
+  header nav .navbar-nav .nav-item {
+    position: relative; }
+    header nav .navbar-nav .nav-item .menu-dot {
+      position: absolute;
+      left: 50%;
+      bottom: -12px; }
+      header nav .navbar-nav .nav-item .menu-dot span {
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: #fff;
+        margin: 0px 1px;
+        display: inline-block;
+        opacity: 0;
+        transition: .4s;
+        visibility: hidden; }
+    header nav .navbar-nav .nav-item .nav-link {
+      color: #fff;
+      padding: 0;
+      font-size: 16px;
+      font-weight: 500;
+      margin-left: 35px;
+      font-family: 'Ubuntu', sans-serif; }
+    header nav .navbar-nav .nav-item:hover span {
+      opacity: 1;
+      visibility: visible; }
+  header nav .navbar-nav .nav-item.active span {
+    opacity: 1;
+    visibility: visible; }
+  header .banner-text {
+    padding-top: 100px;
+    color: #fff; }
+    header .banner-text h2 {
+      font-size: 32px;
+      font-weight: 500;
+      font-family: 'Ubuntu', sans-serif; }
+    header .banner-text h1 {
+      font-weight: 700;
+      font-size: 48px;
+      margin-bottom: 40px;
+      margin-top: 10px; }
+    header .banner-text p {
+      margin-bottom: 56px; }
+    header .banner-text ul li .common-btn {
+      padding: 12px 21px;
+      display: inline-block;
+      background-color: #fff;
+      border-radius: 30px;
+      margin-right: 15px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #245cd1;
+      border: 1px solid transparent;
+      transition: .4s;
+      font-family: 'Ubuntu', sans-serif; }
+      header .banner-text ul li .common-btn:hover {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff; }
+    header .banner-text ul li .common-btn-2 {
+      border: 1px solid #fff;
+      background-color: transparent;
+      color: #fff; }
+      header .banner-text ul li .common-btn-2:hover {
+        background-color: #fff;
+        color: #245cd1;
+        border: 1px solid transparent; }
+  header .domain-name {
+    margin-top: 330px; }
+    header .domain-name h2 {
+      font-size: 32px;
+      font-weight: 500;
+      color: #222;
+      margin-bottom: 30px;
+      font-family: 'Ubuntu', sans-serif; }
+    header .domain-name .input-group button {
+      padding: 0 32px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      background-color: #245cd1;
+      border: 0;
+      font-family: 'Ubuntu', sans-serif; }
+    header .domain-name .banner-chick {
+      margin-top: 20px; }
+      header .domain-name .banner-chick ul li {
+        margin-right: 25px;
+        color: #999;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif; }
+
+/*-- whuchoose-section-start --*/
+.whychoose {
+  margin-top: 100px;
+  padding: 60px 0;
+  background-color: #f4f7fd; }
+  .whychoose .hadding {
+    margin-bottom: 60px; }
+  .whychoose .single-choose {
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: .4s;
+    background-color: #e9f0ff; }
+    .whychoose .single-choose h3 {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: 'Ubuntu', sans-serif;
+      margin-top: 20px;
+      color: #222;
+      transition: .4s;
+      margin-bottom: 30px; }
+    .whychoose .single-choose p {
+      color: #444;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif; }
+    .whychoose .single-choose:hover h3 {
+      color: #245cd1; }
+
+/*-- whuchoose-section-end --*/
+/*-- Basic-web-hosting-start --*/
+.basic-web {
+  padding: 100px 0; }
+  .basic-web .basic-text h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif; }
+  .basic-web .basic-text p {
+    margin-bottom: 30px;
+    color: #444;
+    font-family: 'Open Sans', sans-serif; }
+  .basic-web .basic-text h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #222;
+    font-family: 'Ubuntu', sans-serif; }
+    .basic-web .basic-text h3 span {
+      font-size: 20px; }
+  .basic-web .basic-2 {
+    margin-top: 120px; }
+    .basic-web .basic-2 .basic-img {
+      margin-left: -150px;
+      margin-right: -40px; }
+
+/*-- Basic-web-hosting-end --*/
+/*-- choose-your-plan start --*/
+.choose-plan {
+  padding-bottom: 100px; }
+  .choose-plan .hadding {
+    margin-bottom: 40px; }
+  .choose-plan .choose-menu {
+    margin-bottom: 50px; }
+    .choose-plan .choose-menu ul {
+      justify-content: center; }
+      .choose-plan .choose-menu ul li {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        color: #245cd1;
+        border-radius: 30px;
+        background-color: #fff;
+        transition: .4s; }
+        .choose-plan .choose-menu ul li:hover {
+          background-color: #245cd1;
+          color: #fff; }
+  .choose-plan .choose-tables .single-choose-table {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    transition: .4s;
+    overflow: hidden;
+    z-index: 1; }
+    .choose-plan .choose-tables .single-choose-table::after {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      z-index: -1;
+      background-image: url(../images/price-after.png);
+      background-size: cover;
+      background-position: center; }
+    .choose-plan .choose-tables .single-choose-table .choose-table-top {
+      color: #fff;
+      padding: 10px; }
+      .choose-plan .choose-tables .single-choose-table .choose-table-top h2 {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif; }
+      .choose-plan .choose-tables .single-choose-table .choose-table-top h3 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-top: 220px;
+        font-family: 'Ubuntu', sans-serif; }
+    .choose-plan .choose-tables .single-choose-table .choose-table-bottom {
+      padding-top: 80px;
+      padding-bottom: 30px; }
+      .choose-plan .choose-tables .single-choose-table .choose-table-bottom ul li p {
+        margin-bottom: 30px;
+        font-size: 16px; }
+      .choose-plan .choose-tables .single-choose-table .choose-table-bottom ul li a {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: #777;
+        font-weight: 500;
+        background-color: #fff;
+        border-radius: 30px;
+        transition: .4s;
+        font-family: 'Ubuntu', sans-serif; }
+        .choose-plan .choose-tables .single-choose-table .choose-table-bottom ul li a:hover {
+          background-color: #245cd1;
+          color: #fff;
+          box-shadow: 0px 10px 22.08px 1.92px rgba(36, 92, 209, 0.15); }
+    .choose-plan .choose-tables .single-choose-table:hover {
+      transform: scaleY(1.1); }
+    .choose-plan .choose-tables .single-choose-table .recomended {
+      position: absolute;
+      background-color: #ffe27d;
+      text-align: center;
+      width: 100%;
+      transform: rotate(49deg);
+      display: inline-block;
+      left: 137px;
+      top: 35px; }
+      .choose-plan .choose-tables .single-choose-table .recomended p {
+        color: #444; }
+
+/*-- choose-your-plan end --*/
+/*-- free-website start --*/
+.free-website {
+  background-color: #f2f6ff;
+  padding: 20px 0; }
+  .free-website .free-website-text h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    color: #777;
+    margin-bottom: 20px; }
+  .free-website .free-website-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 25px;
+    font-family: 'Ubuntu', sans-serif; }
+  .free-website .free-website-text p {
+    color: #444;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif; }
+
+/*-- free-website end --*/
+/*-- testimonial-section start --*/
+.testimonial {
+  padding: 100px 0; }
+  .testimonial .hadding {
+    margin-bottom: 60px; }
+  .testimonial .single-testimonial {
+    height: 380px;
+    border: 1px solid transparent;
+    transition: .4s; }
+    .testimonial .single-testimonial .test-text {
+      height: 210px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 30px;
+      transition: .4s;
+      background-color: #f5f5f5; }
+      .testimonial .single-testimonial .test-text p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #444;
+        transition: .4s;
+        font-family: 'Open Sans', sans-serif; }
+      .testimonial .single-testimonial .test-text .test-img {
+        position: absolute;
+        left: 50%;
+        bottom: 100px;
+        display: inline-block;
+        border: 7px solid #fff;
+        border-radius: 50%;
+        transform: translateX(-50%); }
+    .testimonial .single-testimonial .test-rate {
+      margin-top: 75px; }
+      .testimonial .single-testimonial .test-rate h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #222;
+        font-family: 'Ubuntu', sans-serif; }
+      .testimonial .single-testimonial .test-rate h6 {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px 0;
+        color: #999;
+        font-family: 'Ubuntu', sans-serif; }
+      .testimonial .single-testimonial .test-rate ul li {
+        color: #ffc12d;
+        font-size: 12px;
+        margin: 0 2px; }
+    .testimonial .single-testimonial:hover {
+      border: 1px solid #245cd1;
+      box-shadow: 0px 0px 9.5px 0.5px rgba(36, 92, 209, 0.2); }
+    .testimonial .single-testimonial:hover .test-text {
+      background-color: #245cd1; }
+      .testimonial .single-testimonial:hover .test-text p {
+        color: #fff; }
+
+.owl-nav {
+  position: absolute;
+  left: 50%;
+  bottom: -70px;
+  transform: translateX(-50%); }
+
+.owl-nav button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #245cd1 !important;
+  color: #fff !important;
+  text-align: center;
+  border: 1px transparent;
+  line-height: 30px;
+  display: inline-block;
+  transition: .4s;
+  margin: 0 5px; }
+  .owl-nav button:hover {
+    background-color: #fff !important;
+    border: 1px solid #245cd1 !important;
+    color: #245cd1 !important; }
+
+.owl-nav button.owl-prev {
+  color: #245cd1 !important;
+  background-color: #fff !important;
+  transition: .4s;
+  border: 1px solid #245cd1 !important; }
+  .owl-nav button.owl-prev:hover {
+    color: #fff !important;
+    background-color: #245cd1 !important;
+    border: 1px solid transparent; }
+
+/*-- testimonisl-section end --*/
+/*-- latest-news section start --*/
+.latest-news {
+  padding: 100px 0;
+  padding-bottom: 0; }
+  .latest-news .hadding {
+    margin-bottom: 60px; }
+  .latest-news .latest-single-news .latest-text {
+    background-color: #f5f5f5;
+    padding: 30px; }
+    .latest-news .latest-single-news .latest-text ul li p {
+      color: #777;
+      font-size: 14;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif; }
+      .latest-news .latest-single-news .latest-text ul li p i {
+        margin-right: 5px; }
+    .latest-news .latest-single-news .latest-text .nav li {
+      margin-right: 10px;
+      margin-top: 5px;
+      margin-bottom: 35px; }
+    .latest-news .latest-single-news .latest-text h3 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 25px;
+      color: #222;
+      transition: .4s;
+      font-family: 'Ubuntu', sans-serif; }
+    .latest-news .latest-single-news .latest-text p {
+      color: #444;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif; }
+    .latest-news .latest-single-news .latest-text a {
+      margin-top: 15px;
+      display: inline-block;
+      font-weight: 500;
+      font-size: 16px;
+      color: #444;
+      transition: .4s;
+      font-family: 'Ubuntu', sans-serif; }
+      .latest-news .latest-single-news .latest-text a i {
+        margin-left: 2px;
+        animation-name: raninng;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite; }
+@keyframes raninng {
+  100% {
+    margin-left: 10px; } }
+  .latest-news .latest-single-news:hover .latest-text h3, .latest-news .latest-single-news:hover .latest-text a {
+    color: #245cd1; }
+
+/*-- latest-news section end --*/
+/*-- footer-section start --*/
+footer {
+  background-image: url(../images/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 955px; }
+  footer .footer-top {
+    padding-top: 100px; }
+    footer .footer-top .single-footer-top {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      width: 100%;
+      height: 95px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  footer .footer-maine {
+    padding-top: 240px; }
+    footer .footer-maine .footer-logo-section .footer-logo {
+      display: inline-block;
+      margin-bottom: 20px; }
+      footer .footer-maine .footer-logo-section .footer-logo p {
+        margin-bottom: 30px; }
+    footer .footer-maine .footer-logo-section ul {
+      margin-top: 30px; }
+      footer .footer-maine .footer-logo-section ul li {
+        margin-right: 3px; }
+        footer .footer-maine .footer-logo-section ul li a {
+          display: inline-block;
+          height: 40px;
+          width: 40px;
+          line-height: 40px;
+          text-align: center;
+          border-radius: 50%;
+          background-color: transparent;
+          border: 2px solid #777;
+          transition: .4s; }
+          footer .footer-maine .footer-logo-section ul li a i {
+            font-size: 20px;
+            color: #444;
+            transition: .4s; }
+          footer .footer-maine .footer-logo-section ul li a:hover {
+            background-color: #245cd1;
+            border: 2px solid transparent; }
+            footer .footer-maine .footer-logo-section ul li a:hover i {
+              color: #fff; }
+    footer .footer-maine h3 {
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: #222;
+      font-weight: 500;
+      font-family: 'Ubuntu', sans-serif; }
+    footer .footer-maine p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #444; }
+    footer .footer-maine .our-location-section {
+      margin-bottom: 30px; }
+    footer .footer-maine .important-links-section ul li a {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #444;
+      font-size: 14px; }
+    footer .footer-maine .instagram-section .col-lg-4 {
+      padding: 0;
+      padding: 10px 10px; }
+  footer .copy-right {
+    border-top: 1px solid #ededed; }
+    footer .copy-right p {
+      font-size: 14px;
+      color: #444;
+      padding-top: 5px; }
+
+/*-- footer-section end --*/
+
+/*# sourceMappingURL=style.css.map */
